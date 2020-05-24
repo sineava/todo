@@ -1,16 +1,39 @@
 {
 	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/todo/todo",
 			"style": {
-				"navigationBarTitleText": "to-do"
+				"navigationBarTitleText": "Todo"
 			}
 		}
+        ,{
+            "path" : "pages/map/map",
+            "style" : {
+				"navigationBarTitleText": "Map"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/todo/todo",
+	        "iconPath": "static/todo_list.png",
+	        "selectedIconPath": "static/todo_list_hl.png",
+	        "text": "代办"
+	    }, {
+	        "pagePath": "pages/map/map",
+	        "iconPath": "static/map.png",
+	        "selectedIconPath": "static/map_hl.png",
+	        "text": "地图"
+	    }]
 	}
 }
