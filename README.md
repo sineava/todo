@@ -14,9 +14,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### 小程序体验地址
-![wechat](./wechat.jpg)
